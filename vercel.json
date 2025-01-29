@@ -1,6 +1,6 @@
 {
   "functions": {
-    "users/**/*.js": {
+    "**/*.js": {
       "maxDuration": 60
     }
   }
