@@ -1,6 +1,6 @@
 {
   "functions": {
-    "app/api/**/*": {
+    "app/api/ai-logo-model/route.jsx": {
       "maxDuration": 60
     }
   }
