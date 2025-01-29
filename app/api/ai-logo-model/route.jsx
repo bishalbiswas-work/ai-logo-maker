@@ -22,7 +22,9 @@ export async function POST(req) {
         //Generate Logo From AI Modal
         if (type == 'Free') {
             //Free Model 1 : https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3.5-large
-            const response = await axios.post('https://api-inference.huggingface.co/models/strangerzonehf/Flux-Midjourney-Mix2-LoRA',
+            //             const response = await axios.post('https://api-inference.huggingface.co/models/strangerzonehf/Flux-Midjourney-Mix2-LoRA',
+
+            const response = await axios.post('https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell',
                 AIPrompt,
                 {
                     headers: {
