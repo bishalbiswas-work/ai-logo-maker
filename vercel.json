@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/ai-logo-model": {
+    "users/**/*.js": {
       "maxDuration": 60
     }
   }
